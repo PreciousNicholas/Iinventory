@@ -1,0 +1,395 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+.container >div >div{
+    width: 45%;
+    justify-content: space-between;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+p{
+    text-transform: lowercase;
+}
+.edit-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.add{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 30%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+}
+.edit-2{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 30%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+}
+.record-icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.product{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 30%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+}
+.contacts{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 10%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+}
+.goods-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.suppilers{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 10%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+}
+.customers{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 10%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+}
+.stock-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.excel{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 30%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+} 
+.stocks{
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 30%;
+    box-shadow: 0 0 8px #888888;
+    border-radius: 5px
+}
+h2{
+    text-align: center;
+    text-decoration: dotted;
+    text-transform: uppercase;
+}
+.container{
+    text-align: center;
+    padding: 30px;
+    background-color: aquamarine;
+}
+.product-name label{
+    text-decoration: solid;
+}
+.product-name input{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0 0 8px gainsboro;
+    width: 30%;
+    background-color: white;
+}
+.product-freshness p{
+    text-decoration: solid;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+}
+.product-freshness input{
+    margin-top: 1ox;
+    margin-bottom: 30px;
+}
+.product-price select{
+    width: 20%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.comments input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0 0 8px gainsboro;
+    width: 30%;
+    background-color: white;
+}
+.description textarea{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    
+}
+
+.product-category select{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+
+
+h2{
+    text-transform: uppercase;
+}
+.container{
+    text-align: center;
+    padding: 30px;
+    background-color: skyblue;
+}
+h4{
+    margin-bottom: 20px;
+
+}
+.full-name label{
+    text-transform: capitalize;
+}
+.full-name input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+.address input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 50%;
+}
+.Address-2 label{
+    text-transform: capitalize;
+}
+.Address-2 input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+.phone-email input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+.feedback textarea{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 20%;
+}
+.feedback label{
+    text-transform: capitalize;
+}
+.comments p{
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.comments input yes{
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+} 
+.comments label{
+    justify-content: space-between;
+}
+.button button{
+    background-color: beige;
+    width: 30%;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.container{
+    text-align: center;
+    padding: 30px;
+    background-color: skyblue;
+}
+.company-name label{
+    text-transform: capitalize;
+}
+.company-name input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 50%;
+}
+.contact label{
+    text-transform: capitalize;
+}
+.contact input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+.email label{
+    text-transform: capitalize;
+}
+.email input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+.number label{
+    text-transform: capitalize;
+}
+.number input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+.city label{
+    text-transform: capitalize;
+}
+.city input{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px gainsboro;
+    background-color: white;
+    width: 30%;
+}
+.btn button{
+    background-color: blueviolet;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: aquamarine;
+    display: flex;
+}
+.container h1{
+    background-color: aquamarine;
+    text-align: center;
+}
+    
+
+.costmetics{
+    padding: 50px;
+    display: block;
+}
+.costmetics .image-2 img,
+.costmetics .image-1 img,
+.costmetics .image-3 img,
+.costmetics .image-4 img
+ {
+    padding: 5px;
+    width: 200px;
+    height:200px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.music{
+    display: block;
+    padding: 50px;
+}
+.music .image-5 img,
+.music .image-6 img,
+.music .image-7 img,
+.music .image-12 img{
+    padding: 5px;
+    width: 200px;
+    height:200px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.electronic{
+    padding: 50px;
+    display: block;
+}
+.electronic .image-8 img,
+.electronic .image-9 img,
+.electronic .image-10 img{
+    padding: 5px;
+    width: 200px;
+    height:200px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.container-1{
+    padding: 50px;
+    background-color: red;
+    display: flex;
+    
+}
+.container-1 h1{
+    background-color: red;
+    
+    
+}
+   
+
+
