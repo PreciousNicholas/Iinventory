@@ -386,9 +386,17 @@ h4{
     
 }
 .container-1 h1{
-    background-color: red;
-    
-    
+    background-color: red;   
+}
+.btn-2 button{
+    background-color: lightblue;
+    width: 20%;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: medium;
 }
    
 
